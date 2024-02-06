@@ -13,16 +13,9 @@ public class Sales implements Comparable<Sales> {
         return value;
     }
 
-    public void setValue(double value) {
-        this.value = value;
-    }
 
     public String getProduct() {
         return product;
-    }
-
-    public void setProduct(String product) {
-        this.product = product;
     }
 
     @Override
